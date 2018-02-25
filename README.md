@@ -5,7 +5,7 @@ Generate APNs Safari WebPush Package
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://scrutinizer-ci.com/g/zupago/zpush/badges/build.png?b=master)](https://scrutinizer-ci.com/g/zupago/zpush/build-status/master)
-sight](https://insight.sensiolabs.com/projects/30d57a0c-06db-45e4-97fc-2e164cbca54f/big.png)](https://insight.sensiolabs.com/projects/30d57a0c-06db-45e4-97fc-2e164cbca54f)
+[![sight](https://insight.sensiolabs.com/projects/30d57a0c-06db-45e4-97fc-2e164cbca54f/big.png)](https://insight.sensiolabs.com/projects/30d57a0c-06db-45e4-97fc-2e164cbca54f)
 
 This package makes it so easy to Generate Safari WebPush Packages Required By Apple.
 
@@ -69,6 +69,34 @@ A post request to https://zpush.zupago.pe/pusher/safari/generator
 
 with the following perimeters
 
-[{"key":"websitePushID","value":"web.pe.zupago.test","description":"The Website Push ID, as specified in your developer account. Required\n\n","type":"text","enabled":true},{"key":"certfile","value":null,"description":"Your Certificates.p12 Certificate Required","type":"file","enabled":true},{"key":"certPassw","value":"test123456","description":"Your Certificates.p12 Certificate Password if Any","type":"text","enabled":true},{"key":"saflogo","value":null,"description":"Website Logo Required","type":"file","enabled":true},{"key":"website","value":"https://zpush.zupago.pe","description":"An array of websites that are allowed to request permission from the user. Required","type":"text","enabled":true},{"key":"websiteName","value":"ZuPago WebPush Generator","description":"The website name. This is the heading used in Notification Center. Required","type":"text","enabled":true},{"key":"authenticationToken","value":"B82CFAED-7F81-4BB3-A128-3DCE18977DC6","description":"A string that helps you identify the user. It is included in later requests to your web service. This string must 16 characters or greater. Required","type":"text","enabled":true},{"key":"webServiceURL","value":"https://zpush.zupago.pe/pusher/safari","description":"The location used to make requests to your web service. The trailing slash should be omitted. Required","type":"text","enabled":true},{"key":"urlFormatString","value":"https://zpush.zupago.pe/url/?url=%@","description":"The URL to go to when the notification is clicked. Use %@ as a placeholder for arguments you fill in when delivering your notification. This URL must use the http or https scheme; otherwise, it is invalid. Required","type":"text","enabled":true}]
+{"key":"websitePushID",     "value":"web.pe.zupago.test",       "description":"The Website Push ID, as specified in your developer account.
+Required\n\n","type":"text","enabled":true},
+
+
+{"key":"certfile",  "value":Certificates.p12file, "description":"Your Certificates.p12 Certificate Required","type":"file","enabled":true},
+
+
+{"key":"certPassw",  "value":"test123456",  "description":"Your Certificates.p12 Certificate Password if Any","type":"text","enabled":true},
+
+
+{"key":"saflogo",  "value":null,  "description":"Website Logo Required","type":"file","enabled":true},
+
+
+{"key":"website",  "value":"https://zpush.zupago.pe",  "description":"An array of websites that are allowed to request permission from the user. Required","type":"text","enabled":true},
+
+
+{"key":"websiteName",  "value":"ZuPago WebPush Generator", "description":"The website name. This is the heading used in Notification Center. Required","type":"text","enabled":true},
+
+
+
+{"key":"authenticationToken",  "value":"B82CFAED-7F81-4BB3-A128-3DCE18977DC6",  "description":"A string that helps you identify the user. It is included in later requests to your web service. This string must 16 characters or greater. Required","type":"text","enabled":true},
+
+
+{"key":"webServiceURL",  "value":"https://zpush.zupago.pe/pusher/safari",  "description":"The location used to make requests to your web service. The trailing slash should be omitted. Required","type":"text","enabled":true},
+
+
+{"key":"urlFormatString",  "value":"https://zpush.zupago.pe/url/?url=%@",  "description":"The URL to go to when the notification is clicked. Use %@ as a placeholder for arguments you fill in when delivering your notification. This URL must use the http or https scheme; otherwise, it is invalid. Required","type":"text","enabled":true}]
 
 ```
+
+Kindly repost if any issue.
