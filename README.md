@@ -14,8 +14,9 @@ This package makes it so easy to Generate Safari WebPush Packages Required By Ap
 You can Generate Safari WebPush Packages Via our website or directly from your project via our api:
 
 ``` Website
-[ https://zpush.zupago.pe/safari/generator ](https://zpush.zupago.pe/safari/generator) or [https://zpush.zupago.pe/safari/generator](https://zpush.zupago.pe/safari/generator)
 ```
+[ https://zpush.zupago.pe/safari/generator ](https://zpush.zupago.pe/safari/generator) or [https://zpush.zupago.pe/safari/generator](https://zpush.zupago.pe/safari/generator)
+
 
 ``` API PHP
 
