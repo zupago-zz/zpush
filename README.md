@@ -48,6 +48,9 @@ echo $response->getBody();
 
 ```
 
+
+
+## API Curl
 ``` API Curl
 curl -X POST \
   https://zpush.zupago.pe/pusher/safari/generator \
@@ -62,8 +65,8 @@ curl -X POST \
   -F webServiceURL=https://zpush.zupago.pe/pusher/safari \
   -F 'urlFormatString=https://zpush.zupago.pe/url/?url=%@'
 ```
-
-``` API Other methods
+## API Other methods
+```
 Python Java Json Net swith all work
 
 A post request to https://zpush.zupago.pe/pusher/safari/generator
