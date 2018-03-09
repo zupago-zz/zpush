@@ -1,5 +1,6 @@
 # zpush
 Generate APNs Safari WebPush Package
+Kindly repost any issue or Chat for instant support [ https://zupago.slack.com/messages/C9M45284T/apps/A0F7XDW93/ ](https://zupago.slack.com/messages/C9M45284T/apps/A0F7XDW93/) .
 
 # Safari WebPush Package Generator API
 
@@ -67,40 +68,26 @@ curl -X POST \
 ```
 ## API Other methods
 ```
-Python Java Json Net swith all work
+`Python`, `Java`, `Json`, `Net`, `Swift`, `Ruby`, `NodeJs` all work
 
 A post request to https://zpush.zupago.pe/pusher/safari/generator
 
 with the following perimeters
 
-{"key":"websitePushID",     "value":"web.pe.zupago.test",       "description":"The Website Push ID, as specified in your developer account.
-Required\n\n","type":"text","enabled":true},
 
-
-{"key":"certfile",  "value":Certificates.p12file, "description":"Your Certificates.p12 Certificate Required","type":"file","enabled":true},
-
-
-{"key":"certPassw",  "value":"test123456",  "description":"Your Certificates.p12 Certificate Password if Any","type":"text","enabled":true},
-
-
-{"key":"saflogo",  "value":null,  "description":"Website Logo Required","type":"file","enabled":true},
-
-
-{"key":"website",  "value":"https://zpush.zupago.pe",  "description":"An array of websites that are allowed to request permission from the user. Required","type":"text","enabled":true},
-
-
-{"key":"websiteName",  "value":"ZuPago WebPush Generator", "description":"The website name. This is the heading used in Notification Center. Required","type":"text","enabled":true},
-
-
-
-{"key":"authenticationToken",  "value":"B82CFAED-7F81-4BB3-A128-3DCE18977DC6",  "description":"A string that helps you identify the user. It is included in later requests to your web service. This string must 16 characters or greater. Required","type":"text","enabled":true},
-
-
-{"key":"webServiceURL",  "value":"https://zpush.zupago.pe/pusher/safari",  "description":"The location used to make requests to your web service. The trailing slash should be omitted. Required","type":"text","enabled":true},
-
-
-{"key":"urlFormatString",  "value":"https://zpush.zupago.pe/url/?url=%@",  "description":"The URL to go to when the notification is clicked. Use %@ as a placeholder for arguments you fill in when delivering your notification. This URL must use the http or https scheme; otherwise, it is invalid. Required","type":"text","enabled":true}]
+| Key              | Value              | Description                 |
+| :------------------| :------------------- | :---------------------------|
+| `websitePushID`     | `web.pe.zupago.test` | TThe Website Push ID, as specified in your developer account. Required
+  |
+| `certfile`         | `Certificates.p12`   | Your Certificates.p12 Certificate Required  |
+| `certPassw`         | `password`              | `file` Your Certificates.p12 Certificate Password if Any|
+| `saflogo`   |  `logo.png`                | `file` Website Logo Required|
+| `website`             | `https://zpush.zupago.pe` | An array of websites that are allowed to request permission from the user. Required |
+| `websiteName`             | `ZuPago WebPush Generator`               | The website name. This is the heading used in Notification Center. Required |
+| `authenticationToken`         | `B82CF5AED-7F81-4BB3-A128-3DCE18977DC6`               | A string that helps you identify the user. It is included in later requests to your web service. This string must 16 characters or greater. Required |
+| `webServiceURL`      | `https://zpush.zupago.pe/pusher/safari`                 | The location used to make requests to your web service. The trailing slash should be omitted. Required |
+| `urlFormatString`       | `https://zpush.zupago.pe/url/?url=%@`                 | The URL to go to when the notification is clicked. Use %@ as a placeholder for arguments you fill in when delivering your notification. This URL must use the http or https scheme; otherwise, it is invalid. Required |
 
 ```
 
-Kindly repost if any issue.
+Kindly repost any issue or Chat for instant support [ https://zupago.slack.com/messages/C9M45284T/apps/A0F7XDW93/ ](https://zupago.slack.com/messages/C9M45284T/apps/A0F7XDW93/) .
