@@ -70,7 +70,7 @@ curl -X POST \
 
 `Python`, `Java`, `Json`, `Net`, `Swift`, `Ruby`, `NodeJs` all work
 
-A post request to https://zpush.zupago.pe/pusher/safari/generator
+A `POST` request to https://zpush.zupago.pe/pusher/safari/generator
 
 with the following perimeters
 
